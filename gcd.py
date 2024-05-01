@@ -26,7 +26,9 @@ def extended_gcd (a, b):
     print (f"greated common diviser = {old_r}")
     print (f"quotients by the gcd = {t, s}")
 
-gcd = Extend_Euclid (899, 493)
+
+# gcd = Extend_Euclid (99, 78)
+gcd = Extend_Euclid (35, 50)
 print(gcd)
     
 # extended_gcd (99, 78)
