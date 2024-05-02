@@ -1,0 +1,6 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+E:/Projects/AES_128/AES_128.sim/sim_1/synth/timing/xsim/AES_128_Encrypt_tb_time_synth.v,1714297469,verilog,,E:/Projects/AES_128/AES_128.srcs/sim_1/new/AES_128_Encrypt_tb.v,,AES_128_Encrypt;Gfunc;KeyExpansion;SubBytes;SubBytes_0;SubBytes_1;SubBytes_10;SubBytes_11;SubBytes_12;SubBytes_128;SubBytes_13;SubBytes_14;SubBytes_15;SubBytes_16;SubBytes_17;SubBytes_18;SubBytes_2;SubBytes_3;SubBytes_4;SubBytes_5;SubBytes_6;SubBytes_7;SubBytes_8;SubBytes_9;glbl,,,,,,,,
+E:/Projects/AES_128/AES_128.srcs/sim_1/new/AES_128_Encrypt_tb.v,1714208217,verilog,,,,AES_128_Encrypt_tb,,,,,,,,

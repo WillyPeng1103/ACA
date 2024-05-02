@@ -1,0 +1,528 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Apr 29 19:19:06 2024
+# Process ID: 61028
+# Current directory: E:/Projects/AES_128
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5052 E:\Projects\AES_128\AES_128.xpr
+# Log file: E:/Projects/AES_128/vivado.log
+# Journal file: E:/Projects/AES_128\vivado.jou
+# Running On: DESKTOP-9MD5LP4, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 12, Host memory: 16778 MB
+#-----------------------------------------------------------
+start_gui
+open_project E:/Projects/AES_128/AES_128.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'E:/Projects/AES_128/AES_128.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+open_project: Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 1538.320 ; gain = 446.273
+update_compile_order -fileset sources_1
+add_files -norecurse E:/Projects/AES_128/AES_128.srcs/sources_1/new/GFMul3.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property top MixColumns_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'MixColumns_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Projects/AES_128/AES_128.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'MixColumns_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Projects/AES_128/AES_128.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj MixColumns_tb_vlog.prj"
+ECHO 已關閉。
+ECHO 已關閉。
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/GFMul2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GFMul2
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/GFMul3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GFMul3
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/MixColumns.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MixColumns
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sim_1/new/MixColumns_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MixColumns_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Projects/AES_128/AES_128.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MixColumns_tb_behav xil_defaultlib.MixColumns_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO 已關閉。
+ECHO 已關閉。
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MixColumns_tb_behav xil_defaultlib.MixColumns_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.GFMul2
+Compiling module xil_defaultlib.GFMul3
+Compiling module xil_defaultlib.MixColumns
+Compiling module xil_defaultlib.MixColumns_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot MixColumns_tb_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1570.848 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Projects/AES_128/AES_128.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "MixColumns_tb_behav -key {Behavioral:sim_1:Functional:MixColumns_tb} -tclbatch {MixColumns_tb.tcl} -view {E:/Projects/AES_128/AES_128_Encrypt_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config E:/Projects/AES_128/AES_128_Encrypt_tb_behav.wcfg
+WARNING: Simulation object /AES_128_Encrypt_tb/reset_n was not found in the design.
+WARNING: Simulation object /AES_128_Encrypt_tb/clk was not found in the design.
+WARNING: Simulation object /AES_128_Encrypt_tb/done was not found in the design.
+WARNING: Simulation object /AES_128_Encrypt_tb/ciphertext was not found in the design.
+WARNING: Simulation object /AES_128_Encrypt_tb/plaintext was not found in the design.
+WARNING: Simulation object /AES_128_Encrypt_tb/key was not found in the design.
+WARNING: Simulation object /AES_128_Encrypt_tb/uut/curr_state was not found in the design.
+WARNING: Simulation object /AES_128_Encrypt_tb/uut/next_state was not found in the design.
+WARNING: Simulation object /AES_128_Encrypt_tb/uut/round_cnt was not found in the design.
+WARNING: Simulation object /AES_128_Encrypt_tb/uut/state was not found in the design.
+WARNING: Simulation object /AES_128_Encrypt_tb/uut/roundkey was not found in the design.
+WARNING: Simulation object /AES_128_Encrypt_tb/uut/subBytes_state was not found in the design.
+WARNING: Simulation object /AES_128_Encrypt_tb/uut/subBytes_nstate was not found in the design.
+WARNING: Simulation object /AES_128_Encrypt_tb/uut/ShiftRows_state was not found in the design.
+WARNING: Simulation object /AES_128_Encrypt_tb/uut/ShiftRows_nstate was not found in the design.
+WARNING: Simulation object /AES_128_Encrypt_tb/uut/MixColumns_state was not found in the design.
+WARNING: Simulation object /AES_128_Encrypt_tb/uut/MixColumns_nstate was not found in the design.
+WARNING: Simulation object /AES_128_Encrypt_tb/uut/KeyExpansion_key was not found in the design.
+WARNING: Simulation object /AES_128_Encrypt_tb/uut/KeyExpansion_Nr was not found in the design.
+WARNING: Simulation object /AES_128_Encrypt_tb/uut/KeyExpansion_nkey was not found in the design.
+WARNING: Simulation object /AES_128_Encrypt_tb/uut/addroundkey_state was not found in the design.
+WARNING: Simulation object /AES_128_Encrypt_tb/uut/addroundkey_key was not found in the design.
+WARNING: Simulation object /AES_128_Encrypt_tb/uut/addroundkey_nstate was not found in the design.
+source MixColumns_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+At time                    0, input (r0,r1,r2,r3) = (00,00,00,00) output (n_r0,n_r1,n_r2,n_r3) = (00,00,00,00)
+At time                10000, input (r0,r1,r2,r3) = (ab,40,f0,c4) output (n_r0,n_r1,n_r2,n_r3) = (b9,e4,47,c5)
+At time                30000, input (r0,r1,r2,r3) = (8b,7f,fc,e4) output (n_r0,n_r1,n_r2,n_r3) = (94,8e,20,d6)
+At time                50000, input (r0,r1,r2,r3) = (89,f1,18,4e) output (n_r0,n_r1,n_r2,n_r3) = (57,16,9a,f5)
+At time                70000, input (r0,r1,r2,r3) = (35,05,3f,2f) output (n_r0,n_r1,n_r2,n_r3) = (75,51,3f,3b)
+$finish called at time : 90 ns : File "E:/Projects/AES_128/AES_128.srcs/sim_1/new/MixColumns_tb.v" Line 77
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'MixColumns_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:15 . Memory (MB): peak = 1600.359 ; gain = 29.512
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top AES_128_Encrypt_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'AES_128_Encrypt_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Projects/AES_128/AES_128.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'AES_128_Encrypt_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Projects/AES_128/AES_128.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj AES_128_Encrypt_tb_vlog.prj"
+ECHO 已關閉。
+ECHO 已關閉。
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/AES_128_Encrypt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AES_128_Encrypt
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/AddRoundKey.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AddRoundKey
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/GFMul2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GFMul2
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/GFMul3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GFMul3
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/Gfunc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Gfunc
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/KeyExpansion.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module KeyExpansion
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/MixColumns.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MixColumns
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/MixColumns_128.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MixColumns_128
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/ShiftRows.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ShiftRows
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/SubBytes.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SubBytes
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/SubBytes_128.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SubBytes_128
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sim_1/new/AES_128_Encrypt_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AES_128_Encrypt_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Projects/AES_128/AES_128.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot AES_128_Encrypt_tb_behav xil_defaultlib.AES_128_Encrypt_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO 已關閉。
+ECHO 已關閉。
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot AES_128_Encrypt_tb_behav xil_defaultlib.AES_128_Encrypt_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/Projects/AES_128/AES_128.srcs/sources_1/new/AES_128_Encrypt.v" Line 1. Module AES_128_Encrypt doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Projects/AES_128/AES_128.srcs/sources_1/new/AES_128_Encrypt.v" Line 1. Module AES_128_Encrypt doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.AddRoundKey
+Compiling module xil_defaultlib.SubBytes
+Compiling module xil_defaultlib.SubBytes_128_default
+Compiling module xil_defaultlib.ShiftRows
+Compiling module xil_defaultlib.GFMul2
+Compiling module xil_defaultlib.GFMul3
+Compiling module xil_defaultlib.MixColumns
+Compiling module xil_defaultlib.MixColumns_128_default
+Compiling module xil_defaultlib.Gfunc
+Compiling module xil_defaultlib.KeyExpansion
+Compiling module xil_defaultlib.AES_128_Encrypt
+Compiling module xil_defaultlib.AES_128_Encrypt_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot AES_128_Encrypt_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Projects/AES_128/AES_128.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "AES_128_Encrypt_tb_behav -key {Behavioral:sim_1:Functional:AES_128_Encrypt_tb} -tclbatch {AES_128_Encrypt_tb.tcl} -view {E:/Projects/AES_128/AES_128_Encrypt_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config E:/Projects/AES_128/AES_128_Encrypt_tb_behav.wcfg
+source AES_128_Encrypt_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+At time                50000, round_cnt= 0, state=0123456789abcdeffedcba9876543210, roundkey=0f1571c947d9e8590cb7add6af7f6798, ciphertext=0123456789abcdeffedcba9876543210
+At time               150000, round_cnt= 0, state=0e3634aece7225b6f26b174ed92b5588, roundkey=0f1571c947d9e8590cb7add6af7f6798, ciphertext=0e3634aece7225b6f26b174ed92b5588
+At time               250000, round_cnt= 1, state=657470750fc7ff3fc0e8e8ca4dd02a9c, roundkey=dc9037b09b49dfe997fe723f388115a7, ciphertext=657470750fc7ff3fc0e8e8ca4dd02a9c
+At time               350000, round_cnt= 2, state=5c7bb49a6b72349b05a2317ff46d1294, roundkey=d2c96bb74980b45ede7ec661e6ffd3c6, ciphertext=5c7bb49a6b72349b05a2317ff46d1294
+At time               450000, round_cnt= 3, state=7115262448dc747e5cdac7227da9bd9c, roundkey=c0afdf39892f6b675751ad06b1ae7ec0, ciphertext=7115262448dc747e5cdac7227da9bd9c
+At time               550000, round_cnt= 4, state=f867aee8b437a5210c24c1974cffeabc, roundkey=2c5c65f1a5730e96f222a390438cdd50, ciphertext=f867aee8b437a5210c24c1974cffeabc
+At time               650000, round_cnt= 5, state=721eb200ba06206dcbd4bce704fa654e, roundkey=589d36ebfdee387d0fcc9bed4c4046bd, ciphertext=721eb200ba06206dcbd4bce704fa654e
+At time               750000, round_cnt= 6, state=0ad9d85689f9f77bc1c5f71185e5fb14, roundkey=71c74cc28c2974bf83e5ef52cfa5a9ef, ciphertext=0ad9d85689f9f77bc1c5f71185e5fb14
+At time               850000, round_cnt= 7, state=db18a8ffa16d30d5f88b08d777ba4eaa, roundkey=37149348bb3de7f738d808a5f77da14a, ciphertext=db18a8ffa16d30d5f88b08d777ba4eaa
+At time               950000, round_cnt= 8, state=f91b4fbfe934c9bf8f2f85812b084989, roundkey=48264520f31ba2d7cbc3aa723cbe0b38, ciphertext=f91b4fbfe934c9bf8f2f85812b084989
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'AES_128_Encrypt_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 1631.480 ; gain = 31.121
+run all
+At time              1050000, round_cnt= 9, state=cca104a13e678500ff59025f3bafaa34, roundkey=fd0d42cb0e16e01cc5d54a6ef96b4156, ciphertext=cca104a13e678500ff59025f3bafaa34
+Final ciphertext: ff0b844a0853bf7c6934ab4364148fb9
+At time              1150000, round_cnt= 0, state=ff0b844a0853bf7c6934ab4364148fb9, roundkey=b48ef352ba98134e7f4d592086261876, ciphertext=ff0b844a0853bf7c6934ab4364148fb9
+Test Case 1 Passed.
+At time              1350000, round_cnt= 0, state=67c79c0fc69591e3d1a10871b7820035, roundkey=4d66efea77d5ce6eaaed3606f471f27e, ciphertext=67c79c0fc69591e3d1a10871b7820035
+At time              1450000, round_cnt= 0, state=2aa173e5b1405f8d7b4c3e7743f3f24b, roundkey=4d66efea77d5ce6eaaed3606f471f27e, ciphertext=2aa173e5b1405f8d7b4c3e7743f3f24b
+At time              1550000, round_cnt= 1, state=246641a738f94a71b53b2a669e67bf61, roundkey=efef1c55983ad23b32d7e43dc6a61643, ciphertext=246641a738f94a71b53b2a669e67bf61
+At time              1650000, round_cnt= 2, state=1f6c5202360ec58166bc83d803dcfc3a, roundkey=c9a806e15192d4da634530e7a5e326a4, ciphertext=1f6c5202360ec58166bc83d803dcfc3a
+At time              1750000, round_cnt= 3, state=cd7d7ce0efbe190915a00a118a2052c7, roundkey=dc5f4fe78dcd9b3dee88abda4b6b8d7e, ciphertext=cd7d7ce0efbe190915a00a118a2052c7
+At time              1850000, round_cnt= 4, state=829730d6592a202aa95a41fd3352ae7b, roundkey=ab02bc5426cf2769c8478cb3832c01cd, ciphertext=829730d6592a202aa95a41fd3352ae7b
+At time              1950000, round_cnt= 5, state=7a0389a9aadc813a78cc45d95a846966, roundkey=ca7e01b8ecb126d124f6aa62a7daabaf, ciphertext=7a0389a9aadc813a78cc45d95a846966
+At time              2050000, round_cnt= 6, state=de50ad1fe5543ed5d02bd96b01e8dd3c, roundkey=bd1c78e451ad5e35755bf457d2815ff8, ciphertext=de50ad1fe5543ed5d02bd96b01e8dd3c
+At time              2150000, round_cnt= 7, state=753a48ae00c68dbf15df4cabc7cc1d50, roundkey=f1d33951a07e6764d525933307a4cccb, ciphertext=753a48ae00c68dbf15df4cabc7cc1d50
+At time              2250000, round_cnt= 8, state=a45ea813a7b1d8bc78f27c21793f4440, roundkey=3898269498e641f04dc3d2c34a671e08, ciphertext=a45ea813a7b1d8bc78f27c21793f4440
+At time              2350000, round_cnt= 9, state=6e11ac536009333e28a17cd33af0ab60, roundkey=a6ea16423e0c57b273cf857139a89b79, ciphertext=6e11ac536009333e28a17cd33af0ab60
+Final ciphertext: cdffb080bcc0950f2bb1e321a6172a8c
+At time              2450000, round_cnt= 0, state=cdffb080bcc0950f2bb1e321a6172a8c, roundkey=52fea0506cf2f7e21f3d72932695e9ea, ciphertext=cdffb080bcc0950f2bb1e321a6172a8c
+Test Case 2 Passed.
+At time              2650000, round_cnt= 0, state=1f103ac63b1d52c08e84da2f07093363, roundkey=64e0a0dd4a18316b608df66422317648, ciphertext=1f103ac63b1d52c08e84da2f07093363
+At time              2750000, round_cnt= 0, state=7bf09a1b710563abee092c4b2538452b, roundkey=64e0a0dd4a18316b608df66422317648, ciphertext=7bf09a1b710563abee092c4b2538452b
+At time              2850000, round_cnt= 1, state=dd4d52ce777c57f10bdad74213e5d342, roundkey=a2d8f24ee8c0c325884d3541aa7c4309, ciphertext=dd4d52ce777c57f10bdad74213e5d342
+At time              2950000, round_cnt= 2, state=3b1d4afcbd78d8ff576c0f7bc9521ae8, roundkey=b0c2f3e2580230c7d04f05867a33468f, ciphertext=3b1d4afcbd78d8ff576c0f7bc9521ae8
+At time              3050000, round_cnt= 3, state=9a1884e2390d0ef889f9636e93ea2b0d, roundkey=779880382f9ab0ffffd5b57985e6f3f6, ciphertext=9a1884e2390d0ef889f9636e93ea2b0d
+At time              3150000, round_cnt= 4, state=d45922e523a4b325f8c89a81dfd8b283, roundkey=f195c2afde0f725021dac729a43c34df, ciphertext=d45922e523a4b325f8c89a81dfd8b283
+At time              3250000, round_cnt= 5, state=1568190c55effeaa784ab5d051cc4647, roundkey=0a8d5ce6d4822eb6f558e99f5164dd40, ciphertext=1568190c55effeaa784ab5d051cc4647
+At time              3350000, round_cnt= 6, state=d474998d9b95fcf58e77391da40f2628, roundkey=694c5537bdce7b814896921e19f24f5e, ciphertext=d474998d9b95fcf58e77391da40f2628
+At time              3450000, round_cnt= 7, state=68d6176b9bbc85e6f5aa7d18677bfc88, roundkey=a0c80de31d0676625590e47c4c62ab22, ciphertext=68d6176b9bbc85e6f5aa7d18677bfc88
+At time              3550000, round_cnt= 8, state=94fb0c0c9f4faa76081db933a4230d42, roundkey=8aaa9eca97ace8a8c23c0cd48e5ea7f6, ciphertext=94fb0c0c9f4faa76081db933a4230d42
+At time              3650000, round_cnt= 9, state=6011a23f2d4ee799503b8157fe43c4bc, roundkey=c9f6dcd35e5a347b9c6638af12389f59, ciphertext=6011a23f2d4ee799503b8157fe43c4bc
+Final ciphertext: 28021b7f7e953f14690b212093ab10cc
+At time              3750000, round_cnt= 0, state=28021b7f7e953f14690b212093ab10cc, roundkey=f82d171aa67723613a111bce28298497, ciphertext=28021b7f7e953f14690b212093ab10cc
+Test Case 3 Passed.
+At time              3950000, round_cnt= 0, state=0a8f80b573d9c3589d6c9a3f4f7abb59, roundkey=a8fe0984148805c1f7bb670f2e363acb, ciphertext=0a8f80b573d9c3589d6c9a3f4f7abb59
+At time              4050000, round_cnt= 0, state=a27189316751c6996ad7fd30614c8192, roundkey=a8fe0984148805c1f7bb670f2e363acb, ciphertext=a27189316751c6996ad7fd30614c8192
+At time              4150000, round_cnt= 1, state=ab4e84e070bcd27779012334ea0a7d85, roundkey=ac7e16b5b8f613744f4d747b617b4eb0, ciphertext=ab4e84e070bcd27779012334ea0a7d85
+At time              4250000, round_cnt= 2, state=5504188a0ff512870c86fd5dd09429dd, roundkey=8f51f15a37a7e22e78ea96551991d8e5, ciphertext=5504188a0ff512870c86fd5dd09429dd
+At time              4350000, round_cnt= 3, state=4d26c2bac6e32b277e3cf84d346f5b23, roundkey=0a30288e3d97caa0457d5cf55cec8410, ciphertext=4d26c2bac6e32b277e3cf84d346f5b23
+At time              4450000, round_cnt= 4, state=454bf8e6693e0282439e2a91c86fd872, roundkey=cc6fe2c4f1f82864b4857491e869f081, ciphertext=454bf8e6693e0282439e2a91c86fd872
+At time              4550000, round_cnt= 5, state=9186233acfd97f46e51fb74b7b7a6fd5, roundkey=25e3ee5fd41bc63b609eb2aa88f7422b, ciphertext=9186233acfd97f46e51fb74b7b7a6fd5
+At time              4650000, round_cnt= 6, state=81c7e799c5a64356790cca32beca3da9, roundkey=6dcf1f9bb9d4d9a0d94a6b0a51bd2921, ciphertext=81c7e799c5a64356790cca32beca3da9
+At time              4750000, round_cnt= 7, state=84614cb369780405f9bc69b8497d40b2, roundkey=576ae24aeebe3bea37f450e0664979c1, ciphertext=84614cb369780405f9bc69b8497d40b2
+At time              4850000, round_cnt= 8, state=43c7c9b32027983544fa78c39140173a, roundkey=ecdc9a790262a1933596f17353df88b2, ciphertext=43c7c9b32027983544fa78c39140173a
+At time              4950000, round_cnt= 9, state=2ede83d1f4f1dac2380fefba2dc1cc82, roundkey=6918ad946b7a0c075eecfd740d3375c6, ciphertext=2ede83d1f4f1dac2380fefba2dc1cc82
+Final ciphertext: ad24c65048895e7aae6b04157c3dca02
+At time              5050000, round_cnt= 0, state=ad24c65048895e7aae6b04157c3dca02, roundkey=9c851943f7ff1544a913e830a4209df6, ciphertext=ad24c65048895e7aae6b04157c3dca02
+Test Case 4 Passed.
+At time              5250000, round_cnt= 0, state=b9ca8255379fbee55b51e6264b8f345a, roundkey=824376b10a6055db1c41338d79283c33, ciphertext=b9ca8255379fbee55b51e6264b8f345a
+At time              5350000, round_cnt= 0, state=3b89f4e43dffeb3e4710d5ab32a70869, roundkey=824376b10a6055db1c41338d79283c33, ciphertext=3b89f4e43dffeb3e4710d5ab32a70869
+At time              5450000, round_cnt= 1, state=a89a57c6ef59d69d13f98736e795048d, roundkey=b7a8b507bdc8e0dca189d351d8a1ef62, ciphertext=a89a57c6ef59d69d13f98736e795048d
+At time              5550000, round_cnt= 2, state=145cdf5d69f081d81aac2fa1506c176a, roundkey=87771f663abfffba9b362ceb4397c389, ciphertext=145cdf5d69f081d81aac2fa1506c176a
+At time              5650000, round_cnt= 3, state=7c9de2f4cc61002ffa0a1ddcafa6ff73, roundkey=0b59b87c31e647c6aad06b2de947a8a4, ciphertext=7c9de2f4cc61002ffa0a1ddcafa6ff73
+At time              5750000, round_cnt= 4, state=8236d71c047d6c6d836ec068240c058c, roundkey=a39bf162927db6a438addd89d1ea752d, ciphertext=8236d71c047d6c6d836ec068240c058c
+At time              5850000, round_cnt= 5, state=d64106e4148d9b2276f308d639b56bd9, roundkey=3406295ca67b9ff89ed642714f3c375c, ciphertext=d64106e4148d9b2276f308d639b56bd9
+At time              5950000, round_cnt= 6, state=eab5f7deb7ef4e952f9a239ed0c8315b, roundkey=ff9c63d859e7fc20c731be51880d890d, ciphertext=eab5f7deb7ef4e952f9a239ed0c8315b
+At time              6050000, round_cnt= 7, state=184aeb057151eb99bda1a586de5b991c, roundkey=683bb41c31dc483cf6edf66d7ee07f60, ciphertext=184aeb057151eb99bda1a586de5b991c
+At time              6150000, round_cnt= 8, state=ba6babf7b6b0c727761e792746f66b4e, roundkey=09e964ef38352cd3ced8dabeb038a5de, ciphertext=ba6babf7b6b0c727761e792746f66b4e
+At time              6250000, round_cnt= 9, state=4d206c0030992fd4fbd47e8e6c03d76f, roundkey=15ef79082dda55dbe3028f65533a2abb, ciphertext=4d206c0030992fd4fbd47e8e6c03d76f
+Final ciphertext: 40e4604d8a98c85d62a919136e5f76f9
+At time              6350000, round_cnt= 0, state=40e4604d8a98c85d62a919136e5f76f9, roundkey=a30a93e58ed0c63e6dd2495b3ee863e0, ciphertext=40e4604d8a98c85d62a919136e5f76f9
+Test Case 5 Passed.
+$finish called at time : 6550 ns : File "E:/Projects/AES_128/AES_128.srcs/sim_1/new/AES_128_Encrypt_tb.v" Line 144
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+export_ip_user_files -of_objects  [get_files E:/Projects/AES_128/AES_128.srcs/sources_1/new/GFMul.v] -no_script -reset -force -quiet
+remove_files  E:/Projects/AES_128/AES_128.srcs/sources_1/new/GFMul.v
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\AES_128\AES_128.srcs\sim_1\new\AES_128_Encrypt_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\Projects\AES_128\AES_128.srcs\sim_1\new\MixColumns_tb.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'AES_128_Encrypt_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Projects/AES_128/AES_128.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'AES_128_Encrypt_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Projects/AES_128/AES_128.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj AES_128_Encrypt_tb_vlog.prj"
+ECHO 已關閉。
+ECHO 已關閉。
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/AES_128_Encrypt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AES_128_Encrypt
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/AddRoundKey.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AddRoundKey
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/GFMul2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GFMul2
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/GFMul3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GFMul3
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/Gfunc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Gfunc
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/KeyExpansion.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module KeyExpansion
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/MixColumns.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MixColumns
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/MixColumns_128.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MixColumns_128
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/ShiftRows.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ShiftRows
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/SubBytes.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SubBytes
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/SubBytes_128.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SubBytes_128
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sim_1/new/AES_128_Encrypt_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AES_128_Encrypt_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Projects/AES_128/AES_128.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot AES_128_Encrypt_tb_behav xil_defaultlib.AES_128_Encrypt_tb xil_defaultlib.glbl -log elaborate.log"
+ECHO 已關閉。
+ECHO 已關閉。
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot AES_128_Encrypt_tb_behav xil_defaultlib.AES_128_Encrypt_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/Projects/AES_128/AES_128.srcs/sources_1/new/AES_128_Encrypt.v" Line 1. Module AES_128_Encrypt doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/Projects/AES_128/AES_128.srcs/sources_1/new/AES_128_Encrypt.v" Line 1. Module AES_128_Encrypt doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.AddRoundKey
+Compiling module xil_defaultlib.SubBytes
+Compiling module xil_defaultlib.SubBytes_128_default
+Compiling module xil_defaultlib.ShiftRows
+Compiling module xil_defaultlib.GFMul2
+Compiling module xil_defaultlib.GFMul3
+Compiling module xil_defaultlib.MixColumns
+Compiling module xil_defaultlib.MixColumns_128_default
+Compiling module xil_defaultlib.Gfunc
+Compiling module xil_defaultlib.KeyExpansion
+Compiling module xil_defaultlib.AES_128_Encrypt
+Compiling module xil_defaultlib.AES_128_Encrypt_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot AES_128_Encrypt_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Projects/AES_128/AES_128.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "AES_128_Encrypt_tb_behav -key {Behavioral:sim_1:Functional:AES_128_Encrypt_tb} -tclbatch {AES_128_Encrypt_tb.tcl} -view {E:/Projects/AES_128/AES_128_Encrypt_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config E:/Projects/AES_128/AES_128_Encrypt_tb_behav.wcfg
+source AES_128_Encrypt_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+At time                50000, round_cnt= 0, state=0123456789abcdeffedcba9876543210, roundkey=0f1571c947d9e8590cb7add6af7f6798, ciphertext=0123456789abcdeffedcba9876543210
+At time               150000, round_cnt= 0, state=0e3634aece7225b6f26b174ed92b5588, roundkey=0f1571c947d9e8590cb7add6af7f6798, ciphertext=0e3634aece7225b6f26b174ed92b5588
+At time               250000, round_cnt= 1, state=657470750fc7ff3fc0e8e8ca4dd02a9c, roundkey=dc9037b09b49dfe997fe723f388115a7, ciphertext=657470750fc7ff3fc0e8e8ca4dd02a9c
+At time               350000, round_cnt= 2, state=5c7bb49a6b72349b05a2317ff46d1294, roundkey=d2c96bb74980b45ede7ec661e6ffd3c6, ciphertext=5c7bb49a6b72349b05a2317ff46d1294
+At time               450000, round_cnt= 3, state=7115262448dc747e5cdac7227da9bd9c, roundkey=c0afdf39892f6b675751ad06b1ae7ec0, ciphertext=7115262448dc747e5cdac7227da9bd9c
+At time               550000, round_cnt= 4, state=f867aee8b437a5210c24c1974cffeabc, roundkey=2c5c65f1a5730e96f222a390438cdd50, ciphertext=f867aee8b437a5210c24c1974cffeabc
+At time               650000, round_cnt= 5, state=721eb200ba06206dcbd4bce704fa654e, roundkey=589d36ebfdee387d0fcc9bed4c4046bd, ciphertext=721eb200ba06206dcbd4bce704fa654e
+At time               750000, round_cnt= 6, state=0ad9d85689f9f77bc1c5f71185e5fb14, roundkey=71c74cc28c2974bf83e5ef52cfa5a9ef, ciphertext=0ad9d85689f9f77bc1c5f71185e5fb14
+At time               850000, round_cnt= 7, state=db18a8ffa16d30d5f88b08d777ba4eaa, roundkey=37149348bb3de7f738d808a5f77da14a, ciphertext=db18a8ffa16d30d5f88b08d777ba4eaa
+At time               950000, round_cnt= 8, state=f91b4fbfe934c9bf8f2f85812b084989, roundkey=48264520f31ba2d7cbc3aa723cbe0b38, ciphertext=f91b4fbfe934c9bf8f2f85812b084989
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'AES_128_Encrypt_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 1633.547 ; gain = 2.066
+run all
+At time              1050000, round_cnt= 9, state=cca104a13e678500ff59025f3bafaa34, roundkey=fd0d42cb0e16e01cc5d54a6ef96b4156, ciphertext=cca104a13e678500ff59025f3bafaa34
+Final ciphertext: ff0b844a0853bf7c6934ab4364148fb9
+At time              1150000, round_cnt= 0, state=ff0b844a0853bf7c6934ab4364148fb9, roundkey=b48ef352ba98134e7f4d592086261876, ciphertext=ff0b844a0853bf7c6934ab4364148fb9
+Test Case 1 Passed.
+At time              1350000, round_cnt= 0, state=67c79c0fc69591e3d1a10871b7820035, roundkey=4d66efea77d5ce6eaaed3606f471f27e, ciphertext=67c79c0fc69591e3d1a10871b7820035
+At time              1450000, round_cnt= 0, state=2aa173e5b1405f8d7b4c3e7743f3f24b, roundkey=4d66efea77d5ce6eaaed3606f471f27e, ciphertext=2aa173e5b1405f8d7b4c3e7743f3f24b
+At time              1550000, round_cnt= 1, state=246641a738f94a71b53b2a669e67bf61, roundkey=efef1c55983ad23b32d7e43dc6a61643, ciphertext=246641a738f94a71b53b2a669e67bf61
+At time              1650000, round_cnt= 2, state=1f6c5202360ec58166bc83d803dcfc3a, roundkey=c9a806e15192d4da634530e7a5e326a4, ciphertext=1f6c5202360ec58166bc83d803dcfc3a
+At time              1750000, round_cnt= 3, state=cd7d7ce0efbe190915a00a118a2052c7, roundkey=dc5f4fe78dcd9b3dee88abda4b6b8d7e, ciphertext=cd7d7ce0efbe190915a00a118a2052c7
+At time              1850000, round_cnt= 4, state=829730d6592a202aa95a41fd3352ae7b, roundkey=ab02bc5426cf2769c8478cb3832c01cd, ciphertext=829730d6592a202aa95a41fd3352ae7b
+At time              1950000, round_cnt= 5, state=7a0389a9aadc813a78cc45d95a846966, roundkey=ca7e01b8ecb126d124f6aa62a7daabaf, ciphertext=7a0389a9aadc813a78cc45d95a846966
+At time              2050000, round_cnt= 6, state=de50ad1fe5543ed5d02bd96b01e8dd3c, roundkey=bd1c78e451ad5e35755bf457d2815ff8, ciphertext=de50ad1fe5543ed5d02bd96b01e8dd3c
+At time              2150000, round_cnt= 7, state=753a48ae00c68dbf15df4cabc7cc1d50, roundkey=f1d33951a07e6764d525933307a4cccb, ciphertext=753a48ae00c68dbf15df4cabc7cc1d50
+At time              2250000, round_cnt= 8, state=a45ea813a7b1d8bc78f27c21793f4440, roundkey=3898269498e641f04dc3d2c34a671e08, ciphertext=a45ea813a7b1d8bc78f27c21793f4440
+At time              2350000, round_cnt= 9, state=6e11ac536009333e28a17cd33af0ab60, roundkey=a6ea16423e0c57b273cf857139a89b79, ciphertext=6e11ac536009333e28a17cd33af0ab60
+Final ciphertext: cdffb080bcc0950f2bb1e321a6172a8c
+At time              2450000, round_cnt= 0, state=cdffb080bcc0950f2bb1e321a6172a8c, roundkey=52fea0506cf2f7e21f3d72932695e9ea, ciphertext=cdffb080bcc0950f2bb1e321a6172a8c
+Test Case 2 Passed.
+At time              2650000, round_cnt= 0, state=1f103ac63b1d52c08e84da2f07093363, roundkey=64e0a0dd4a18316b608df66422317648, ciphertext=1f103ac63b1d52c08e84da2f07093363
+At time              2750000, round_cnt= 0, state=7bf09a1b710563abee092c4b2538452b, roundkey=64e0a0dd4a18316b608df66422317648, ciphertext=7bf09a1b710563abee092c4b2538452b
+At time              2850000, round_cnt= 1, state=dd4d52ce777c57f10bdad74213e5d342, roundkey=a2d8f24ee8c0c325884d3541aa7c4309, ciphertext=dd4d52ce777c57f10bdad74213e5d342
+At time              2950000, round_cnt= 2, state=3b1d4afcbd78d8ff576c0f7bc9521ae8, roundkey=b0c2f3e2580230c7d04f05867a33468f, ciphertext=3b1d4afcbd78d8ff576c0f7bc9521ae8
+At time              3050000, round_cnt= 3, state=9a1884e2390d0ef889f9636e93ea2b0d, roundkey=779880382f9ab0ffffd5b57985e6f3f6, ciphertext=9a1884e2390d0ef889f9636e93ea2b0d
+At time              3150000, round_cnt= 4, state=d45922e523a4b325f8c89a81dfd8b283, roundkey=f195c2afde0f725021dac729a43c34df, ciphertext=d45922e523a4b325f8c89a81dfd8b283
+At time              3250000, round_cnt= 5, state=1568190c55effeaa784ab5d051cc4647, roundkey=0a8d5ce6d4822eb6f558e99f5164dd40, ciphertext=1568190c55effeaa784ab5d051cc4647
+At time              3350000, round_cnt= 6, state=d474998d9b95fcf58e77391da40f2628, roundkey=694c5537bdce7b814896921e19f24f5e, ciphertext=d474998d9b95fcf58e77391da40f2628
+At time              3450000, round_cnt= 7, state=68d6176b9bbc85e6f5aa7d18677bfc88, roundkey=a0c80de31d0676625590e47c4c62ab22, ciphertext=68d6176b9bbc85e6f5aa7d18677bfc88
+At time              3550000, round_cnt= 8, state=94fb0c0c9f4faa76081db933a4230d42, roundkey=8aaa9eca97ace8a8c23c0cd48e5ea7f6, ciphertext=94fb0c0c9f4faa76081db933a4230d42
+At time              3650000, round_cnt= 9, state=6011a23f2d4ee799503b8157fe43c4bc, roundkey=c9f6dcd35e5a347b9c6638af12389f59, ciphertext=6011a23f2d4ee799503b8157fe43c4bc
+Final ciphertext: 28021b7f7e953f14690b212093ab10cc
+At time              3750000, round_cnt= 0, state=28021b7f7e953f14690b212093ab10cc, roundkey=f82d171aa67723613a111bce28298497, ciphertext=28021b7f7e953f14690b212093ab10cc
+Test Case 3 Passed.
+At time              3950000, round_cnt= 0, state=0a8f80b573d9c3589d6c9a3f4f7abb59, roundkey=a8fe0984148805c1f7bb670f2e363acb, ciphertext=0a8f80b573d9c3589d6c9a3f4f7abb59
+At time              4050000, round_cnt= 0, state=a27189316751c6996ad7fd30614c8192, roundkey=a8fe0984148805c1f7bb670f2e363acb, ciphertext=a27189316751c6996ad7fd30614c8192
+At time              4150000, round_cnt= 1, state=ab4e84e070bcd27779012334ea0a7d85, roundkey=ac7e16b5b8f613744f4d747b617b4eb0, ciphertext=ab4e84e070bcd27779012334ea0a7d85
+At time              4250000, round_cnt= 2, state=5504188a0ff512870c86fd5dd09429dd, roundkey=8f51f15a37a7e22e78ea96551991d8e5, ciphertext=5504188a0ff512870c86fd5dd09429dd
+At time              4350000, round_cnt= 3, state=4d26c2bac6e32b277e3cf84d346f5b23, roundkey=0a30288e3d97caa0457d5cf55cec8410, ciphertext=4d26c2bac6e32b277e3cf84d346f5b23
+At time              4450000, round_cnt= 4, state=454bf8e6693e0282439e2a91c86fd872, roundkey=cc6fe2c4f1f82864b4857491e869f081, ciphertext=454bf8e6693e0282439e2a91c86fd872
+At time              4550000, round_cnt= 5, state=9186233acfd97f46e51fb74b7b7a6fd5, roundkey=25e3ee5fd41bc63b609eb2aa88f7422b, ciphertext=9186233acfd97f46e51fb74b7b7a6fd5
+At time              4650000, round_cnt= 6, state=81c7e799c5a64356790cca32beca3da9, roundkey=6dcf1f9bb9d4d9a0d94a6b0a51bd2921, ciphertext=81c7e799c5a64356790cca32beca3da9
+At time              4750000, round_cnt= 7, state=84614cb369780405f9bc69b8497d40b2, roundkey=576ae24aeebe3bea37f450e0664979c1, ciphertext=84614cb369780405f9bc69b8497d40b2
+At time              4850000, round_cnt= 8, state=43c7c9b32027983544fa78c39140173a, roundkey=ecdc9a790262a1933596f17353df88b2, ciphertext=43c7c9b32027983544fa78c39140173a
+At time              4950000, round_cnt= 9, state=2ede83d1f4f1dac2380fefba2dc1cc82, roundkey=6918ad946b7a0c075eecfd740d3375c6, ciphertext=2ede83d1f4f1dac2380fefba2dc1cc82
+Final ciphertext: ad24c65048895e7aae6b04157c3dca02
+At time              5050000, round_cnt= 0, state=ad24c65048895e7aae6b04157c3dca02, roundkey=9c851943f7ff1544a913e830a4209df6, ciphertext=ad24c65048895e7aae6b04157c3dca02
+Test Case 4 Passed.
+At time              5250000, round_cnt= 0, state=b9ca8255379fbee55b51e6264b8f345a, roundkey=824376b10a6055db1c41338d79283c33, ciphertext=b9ca8255379fbee55b51e6264b8f345a
+At time              5350000, round_cnt= 0, state=3b89f4e43dffeb3e4710d5ab32a70869, roundkey=824376b10a6055db1c41338d79283c33, ciphertext=3b89f4e43dffeb3e4710d5ab32a70869
+At time              5450000, round_cnt= 1, state=a89a57c6ef59d69d13f98736e795048d, roundkey=b7a8b507bdc8e0dca189d351d8a1ef62, ciphertext=a89a57c6ef59d69d13f98736e795048d
+At time              5550000, round_cnt= 2, state=145cdf5d69f081d81aac2fa1506c176a, roundkey=87771f663abfffba9b362ceb4397c389, ciphertext=145cdf5d69f081d81aac2fa1506c176a
+At time              5650000, round_cnt= 3, state=7c9de2f4cc61002ffa0a1ddcafa6ff73, roundkey=0b59b87c31e647c6aad06b2de947a8a4, ciphertext=7c9de2f4cc61002ffa0a1ddcafa6ff73
+At time              5750000, round_cnt= 4, state=8236d71c047d6c6d836ec068240c058c, roundkey=a39bf162927db6a438addd89d1ea752d, ciphertext=8236d71c047d6c6d836ec068240c058c
+At time              5850000, round_cnt= 5, state=d64106e4148d9b2276f308d639b56bd9, roundkey=3406295ca67b9ff89ed642714f3c375c, ciphertext=d64106e4148d9b2276f308d639b56bd9
+At time              5950000, round_cnt= 6, state=eab5f7deb7ef4e952f9a239ed0c8315b, roundkey=ff9c63d859e7fc20c731be51880d890d, ciphertext=eab5f7deb7ef4e952f9a239ed0c8315b
+At time              6050000, round_cnt= 7, state=184aeb057151eb99bda1a586de5b991c, roundkey=683bb41c31dc483cf6edf66d7ee07f60, ciphertext=184aeb057151eb99bda1a586de5b991c
+At time              6150000, round_cnt= 8, state=ba6babf7b6b0c727761e792746f66b4e, roundkey=09e964ef38352cd3ced8dabeb038a5de, ciphertext=ba6babf7b6b0c727761e792746f66b4e
+At time              6250000, round_cnt= 9, state=4d206c0030992fd4fbd47e8e6c03d76f, roundkey=15ef79082dda55dbe3028f65533a2abb, ciphertext=4d206c0030992fd4fbd47e8e6c03d76f
+Final ciphertext: 40e4604d8a98c85d62a919136e5f76f9
+At time              6350000, round_cnt= 0, state=40e4604d8a98c85d62a919136e5f76f9, roundkey=a30a93e58ed0c63e6dd2495b3ee863e0, ciphertext=40e4604d8a98c85d62a919136e5f76f9
+Test Case 5 Passed.
+$finish called at time : 6550 ns : File "E:/Projects/AES_128/AES_128.srcs/sim_1/new/AES_128_Encrypt_tb.v" Line 144

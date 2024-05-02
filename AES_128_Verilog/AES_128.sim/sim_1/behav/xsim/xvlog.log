@@ -1,0 +1,22 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/AES_128_Encrypt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AES_128_Encrypt
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/AddRoundKey.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AddRoundKey
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/GFMul2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GFMul2
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/GFMul3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GFMul3
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/Gfunc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Gfunc
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/KeyExpansion.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module KeyExpansion
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/MixColumns.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MixColumns
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/MixColumns_128.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MixColumns_128
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/ShiftRows.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ShiftRows
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/SubBytes.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SubBytes
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sources_1/new/SubBytes_128.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SubBytes_128

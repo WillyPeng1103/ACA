@@ -1,0 +1,22 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../AES_128.srcs/sources_1/new/AES_128_Encrypt.v" \
+"../../../../AES_128.srcs/sources_1/new/AddRoundKey.v" \
+"../../../../AES_128.srcs/sources_1/new/GFMul2.v" \
+"../../../../AES_128.srcs/sources_1/new/GFMul3.v" \
+"../../../../AES_128.srcs/sources_1/new/Gfunc.v" \
+"../../../../AES_128.srcs/sources_1/new/KeyExpansion.v" \
+"../../../../AES_128.srcs/sources_1/new/MixColumns.v" \
+"../../../../AES_128.srcs/sources_1/new/MixColumns_128.v" \
+"../../../../AES_128.srcs/sources_1/new/ShiftRows.v" \
+"../../../../AES_128.srcs/sources_1/new/SubBytes.v" \
+"../../../../AES_128.srcs/sources_1/new/SubBytes_128.v" \
+
+sv xil_defaultlib  \
+"../../../../AES_128.srcs/sim_1/new/AES_128_Encrypt_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sun Apr 28 17:39:54 2024
+# Process ID: 67044
+# Current directory: E:/Projects/AES_128/AES_128.runs/synth_1
+# Command line: vivado.exe -log AES_128_Encrypt.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source AES_128_Encrypt.tcl
+# Log file: E:/Projects/AES_128/AES_128.runs/synth_1/AES_128_Encrypt.vds
+# Journal file: E:/Projects/AES_128/AES_128.runs/synth_1\vivado.jou
+# Running On: DESKTOP-9MD5LP4, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 12, Host memory: 16778 MB
+#-----------------------------------------------------------
+source AES_128_Encrypt.tcl -notrace

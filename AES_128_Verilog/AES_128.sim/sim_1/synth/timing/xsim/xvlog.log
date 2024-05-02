@@ -1,0 +1,28 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.sim/sim_1/synth/timing/xsim/AES_128_Encrypt_tb_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AES_128_Encrypt
+INFO: [VRFC 10-311] analyzing module Gfunc
+INFO: [VRFC 10-311] analyzing module KeyExpansion
+INFO: [VRFC 10-311] analyzing module SubBytes
+INFO: [VRFC 10-311] analyzing module SubBytes_0
+INFO: [VRFC 10-311] analyzing module SubBytes_1
+INFO: [VRFC 10-311] analyzing module SubBytes_10
+INFO: [VRFC 10-311] analyzing module SubBytes_11
+INFO: [VRFC 10-311] analyzing module SubBytes_12
+INFO: [VRFC 10-311] analyzing module SubBytes_128
+INFO: [VRFC 10-311] analyzing module SubBytes_13
+INFO: [VRFC 10-311] analyzing module SubBytes_14
+INFO: [VRFC 10-311] analyzing module SubBytes_15
+INFO: [VRFC 10-311] analyzing module SubBytes_16
+INFO: [VRFC 10-311] analyzing module SubBytes_17
+INFO: [VRFC 10-311] analyzing module SubBytes_18
+INFO: [VRFC 10-311] analyzing module SubBytes_2
+INFO: [VRFC 10-311] analyzing module SubBytes_3
+INFO: [VRFC 10-311] analyzing module SubBytes_4
+INFO: [VRFC 10-311] analyzing module SubBytes_5
+INFO: [VRFC 10-311] analyzing module SubBytes_6
+INFO: [VRFC 10-311] analyzing module SubBytes_7
+INFO: [VRFC 10-311] analyzing module SubBytes_8
+INFO: [VRFC 10-311] analyzing module SubBytes_9
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/Projects/AES_128/AES_128.srcs/sim_1/new/AES_128_Encrypt_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AES_128_Encrypt_tb

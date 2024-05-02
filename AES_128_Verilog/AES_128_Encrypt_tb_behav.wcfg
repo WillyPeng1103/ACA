@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="AES_128_Encrypt_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="AES_128_Encrypt_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="620.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,048.001 ns"></ZoomEndTime>
+      <Cursor1Time time="290.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="338"></NameColumnWidth>
+      <ValueColumnWidth column_width="330"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/AES_128_Encrypt_tb/reset_n" type="logic">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AES_128_Encrypt_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AES_128_Encrypt_tb/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AES_128_Encrypt_tb/plaintext" type="array">
+      <obj_property name="ElementShortName">plaintext[127:0]</obj_property>
+      <obj_property name="ObjectShortName">plaintext[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AES_128_Encrypt_tb/key" type="array">
+      <obj_property name="ElementShortName">key[127:0]</obj_property>
+      <obj_property name="ObjectShortName">key[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AES_128_Encrypt_tb/ciphertext" type="array">
+      <obj_property name="ElementShortName">ciphertext[127:0]</obj_property>
+      <obj_property name="ObjectShortName">ciphertext[127:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AES_128_Encrypt_tb/u_AES_128_Encrypt/curr_state" type="array">
+      <obj_property name="ElementShortName">curr_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">curr_state[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AES_128_Encrypt_tb/u_AES_128_Encrypt/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AES_128_Encrypt_tb/state" type="array">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AES_128_Encrypt_tb/rst_count" type="array">
+      <obj_property name="ElementShortName">rst_count[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rst_count[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AES_128_Encrypt_tb/cycle_total" type="array">
+      <obj_property name="ElementShortName">cycle_total[30:0]</obj_property>
+      <obj_property name="ObjectShortName">cycle_total[30:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AES_128_Encrypt_tb/wait_done" type="array">
+      <obj_property name="ElementShortName">wait_done[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wait_done[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AES_128_Encrypt_tb/pattern_select" type="array">
+      <obj_property name="ElementShortName">pattern_select[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pattern_select[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AES_128_Encrypt_tb/total_passed" type="array">
+      <obj_property name="ElementShortName">total_passed[31:0]</obj_property>
+      <obj_property name="ObjectShortName">total_passed[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AES_128_Encrypt_tb/RESET" type="array">
+      <obj_property name="ElementShortName">RESET[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RESET[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AES_128_Encrypt_tb/PATTERN" type="array">
+      <obj_property name="ElementShortName">PATTERN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PATTERN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AES_128_Encrypt_tb/RUN" type="array">
+      <obj_property name="ElementShortName">RUN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RUN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AES_128_Encrypt_tb/OVER" type="array">
+      <obj_property name="ElementShortName">OVER[31:0]</obj_property>
+      <obj_property name="ObjectShortName">OVER[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AES_128_Encrypt_tb/PT1" type="array">
+      <obj_property name="ElementShortName">PT1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PT1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AES_128_Encrypt_tb/PT2" type="array">
+      <obj_property name="ElementShortName">PT2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PT2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AES_128_Encrypt_tb/PT3" type="array">
+      <obj_property name="ElementShortName">PT3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PT3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AES_128_Encrypt_tb/PT4" type="array">
+      <obj_property name="ElementShortName">PT4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PT4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AES_128_Encrypt_tb/PT5" type="array">
+      <obj_property name="ElementShortName">PT5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PT5[31:0]</obj_property>
+   </wvobject>
+</wave_config>
